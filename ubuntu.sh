@@ -27,8 +27,6 @@ sudo adduser ubuntu chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
 printf "\nError Occured " >&2
-printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
-read -p "Paste Here:DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AX4XfWiiKOxKZnSCk5IKWfnbsI7yCYPOaVH3FF2ujKzb11-yjbWy_QaeBBpLZcPJLTa5ew" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)"
-su - ubuntu -c """$CRP"""
+su - ubuntu -c """DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AX4XfWiiKOxKZnSCk5IKWfnbsI7yCYPOaVH3FF2ujKzb11-yjbWy_QaeBBpLZcPJLTa5ew" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
 printf 'Your SUDO Pasword is: root \n'
