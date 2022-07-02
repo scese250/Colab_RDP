@@ -1,6 +1,6 @@
 # Colab_RDP
 
 # Open Colab Notebook And Paste
-  ! wget https://raw.githubusercontent.com/smnahidemon/Google-Cloud-RDP/smnahidemon/setup.sh
-! chmod +x setup.sh
-! ./setup.sh
+      ! wget https://github.com/DiwasNpl/Colab_RDP/DiwasNpl/ubuntu.sh
+      ! chmod +x ubuntu.sh
+      ! ./ubuntu.sh
